@@ -1,0 +1,52 @@
+/*
+	3 Sheep Appointment Booking
+
+	2012-03-14 - V.0.1 - Initial Version
+*/
+#tsbooking_book {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.tsbooking_itemlabel {
+	display: inline-block;
+	width: 200px;
+}
+
+.tsbooking_itemtextentry {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tsbooking_itemnumericentry {
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tsbooking_itemlongtextentry {
+	width: 640px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tsbooking_footnote {
+	font-size: 0.75em;
+}
+
+.tsbooking_appts td, .tsbooking_appts th {
+	text-align: left;
+	padding: 5px; 
+	padding-right: 20px; 
+}
+
+#tsbooking_othersource {
+	display: none;
+}
+#tsbooking_book form select, #tsbooking_book form input {
+	width: 200px;
+}
+
+#tsbooking_settings_message {
+	display: none;
+}
